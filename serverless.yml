@@ -16,6 +16,8 @@ custom:
     watch:
       pattern: ["src/**/*.ts"] # match only typescript files in src directory
       ignore: ["temp/**/*"]
+  serverless-offline:
+    noPrependStageInUrl: true
 
 provider:
   name: aws
